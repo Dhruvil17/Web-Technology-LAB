@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif, serif;
+}
+
+.header {
+	background-color: #00a7f0;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+a {
+	color: black;
+	margin: 30px;
+	align-items: center;
+}
+
+a:hover {
+	color: #d0312d;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
